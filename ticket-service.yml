@@ -9,7 +9,7 @@ logging:
             jsn:
                 booking:
                     app:
-                        movie: DEBUG
+                        ticket: DEBUG
         org:
             hibernate:
                 SQL: DEBUG
@@ -22,7 +22,7 @@ logging:
                         CommonsRequestLoggingFilter: DEBUG
         root: INFO
 server:
-    port: 8081
+    port: 8085
 spring:
     application:
         name: ticket-service
